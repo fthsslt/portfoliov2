@@ -1,0 +1,11 @@
+.modal {
+    display: none; /* Cache le modal par défaut */
+    position: fixed; /* Fixe la position du modal sur l'écran */
+    z-index: 1; /* Place le modal au-dessus de tous les autres éléments */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largeur pleine écran */
+    height: 100%; /* Hauteur pleine écran */
+    overflow: auto; /* Affiche un scrollbar si le contenu dépasse la hauteur de la boîte */
+    background-color: rgba(0,0,0,0.4); /* Couleur de fond semi-transparente */
+  }

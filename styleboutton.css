@@ -1,0 +1,181 @@
+
+.modal {
+  display: none;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.modal.show {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  background-color: rgb(31, 28, 28);
+}
+
+#fermer-modal-btn::before {
+  content: '\2716';
+  font-size: 20px;
+  
+}
+#fermer-modal-btn:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+
+
+}
+
+#fermer-modal-btn {
+position: absolute;
+right: 10px;
+top: 10px;
+z-index: 101;
+}
+.modal video {
+width: 90%;
+height: auto;
+object-fit: cover;
+top: 10px;
+}
+
+
+@media (max-width: 390px) {
+#ouvrir{
+height: 30%;
+width: 100%;
+}
+#ouvrir2{
+    height: 30%;
+    width: 100%;
+    }
+    #ouvrir3{
+        height: 30%;
+        width: 100%;
+        }
+}
+
+
+#fermer-modal-btn {
+position: absolute;
+top: 0;
+right: 0; 
+}
+
+#fermer-modal-btn::before {
+content: '\2716';
+font-size: 20px;
+}
+
+#fermer-modal-btn:hover {
+cursor: pointer;
+background-color: rgba(0, 0, 0, 0.2);
+color: white;
+}
+
+
+
+
+
+
+#fermer2::before {
+    content: '\2716';
+    font-size: 20px;
+    
+  }
+  #fermer2:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+  
+  
+  }
+  
+  #fermer2 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 101;
+  }
+  .modal video {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  top: 10px;
+  }
+  
+  
+  
+  
+  
+  #fermer2 {
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  }
+  
+  #fermer2::before {
+  content: '\2716';
+  font-size: 20px;
+  }
+  
+  #fermer2:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  }
+
+
+
+
+  #fermer3::before {
+    content: '\2716';
+    font-size: 20px;
+    
+  }
+  #fermer3:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+  
+  
+  }
+  
+  #fermer3 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 101;
+  }
+  .modal video {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  top: 10px;
+  }
+  
+  
+  
+  
+  
+  #fermer3 {
+  position: absolute; 
+  top: 0; 
+  right: 0;
+  }
+  
+  #fermer3::before {
+  content: '\2716';
+  font-size: 20px;
+  }
+  
+  #fermer3:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  }
+
